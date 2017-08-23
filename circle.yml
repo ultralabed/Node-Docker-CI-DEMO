@@ -1,11 +1,12 @@
-##### Chapter 5 ##### 
+##### Chapter 5 #####
 ### btree is the best
 deployment:
   dockerhub:
     branch: master
     commands:
       - $DOCKER_HUB_TRIGGER
+# Set up cirlce ci and docker hub complete
 
 test:
-  override:   
-    - mocha 
+  override:
+    - mocha
